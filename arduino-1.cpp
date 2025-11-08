@@ -1,6 +1,3 @@
-// Blink example
-// LED 1 soniyada yoqilib, 1 soniyada o‘chadi.
-
 void setup() {
   pinMode(13, OUTPUT); // LED pinini chiqish (output) rejimiga o‘tkazish
 }

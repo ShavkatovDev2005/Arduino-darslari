@@ -1,6 +1,3 @@
-// 2-dars: Elektr ta'minoti va pinlar
-// Maqsad: LEDni digital pin yordamida boshqarish
-
 int ledPin = 13; // LED 13-pin ga ulangan
 
 void setup() {
