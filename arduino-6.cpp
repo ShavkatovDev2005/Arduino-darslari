@@ -1,16 +1,15 @@
-int readPin = A3;
-int readVal;
-float v2;
-int delayTime = 500;
+int analogPin = A3;
+int analogVal;
+float nVal;
 
-void setup(){
-  pinMode(readPin, INPUT);
+void setup() {
+  pinMode(analogPin, INPUT);
   Serial.begin(9600);
 }
 
-void loop(){
-  readVal = analogRead(readPin);
-  v2 = (.5/.1023)*readVal;
-  Serial.println(v2);
-  delay(delayTime);
+void loop() {
+  analogVal = analogRead(analogPin);
+  nVal = (5./1023.) * analogVal ; 
+  Serial.println(nVal);
+  delay(500);
 }
